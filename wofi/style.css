@@ -1,0 +1,41 @@
+*{
+  font-family: monospace;
+  font-size: 1.04em;
+}
+
+window{
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+}
+
+#input {
+  margin: 10px;
+  background-color: #383C4A;
+  color: white;
+  font-size: 2em;
+  border-radius: 5px;
+}
+
+#inner-box {
+  background-color: rgba(56, 60, 74, 0.7);
+}
+
+#outer-box {
+  margin: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(56, 60, 74, 0.5);
+  border-radius: 5px;
+}
+
+#text {
+  color: white;
+}
+
+ #entry:nth-child(even){ 
+     background-color: rgba(76, 80, 94, 0.7);
+     /*background-color: #515663; */
+ } 
+
+ #entry:selected {
+  background-color: #737886;
+}
